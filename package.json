@@ -8,6 +8,7 @@
   "scripts": {
     "test-factory": "npx hardhat test test/PODFactory.js",
     "test-pod": "npx hardhat test test/POD.js",
+    "verify" : "npx hardhat run scripts/verify.js",
     "deploy-factory-gnosis": "npx hardhat run scripts/deploy.js --network gnosis",
     "deploy-factory-rinkeby": "npx hardhat run scripts/deploy.js --network rinkeby",
     "deploy-factory-local": "npx hardhat run scripts/deploy.js --network localhost",
